@@ -27,7 +27,7 @@ app.get('/data', async (req, res) => {
             temperature: entry.temperature,
             humidity: entry.humidity,
             fire_intensity: entry.fire_intensity,
-            gasconcentration: entry.gasconcentration,
+            gasconcentration: entry.gas_concentration,
             timestamp: entry.timestamp
         }));
         res.json(data);
